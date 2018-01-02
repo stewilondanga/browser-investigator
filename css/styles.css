@@ -1,9 +1,12 @@
 body {
-  text-align: center;
-  font-family: courier;
-  background-image:url("../assets/image.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-color: #222;
+    color: #ccc;
+    font-family: 'Source Code Pro', 'Courier New', monospace;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    overflow-y: scroll;
+    padding: 20px;    
 }
 
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400);
