@@ -6,6 +6,10 @@ var cookies = navigator.cookieEnabled;
 var java = navigator.javaEnabled();
 var language = navigator.language;
 
+if (navigator.geolocation != "") {
+  navigator.geolocation.getCurrentPosition(showDetails);
+}
+
 
 
 var navigate = (function() {
