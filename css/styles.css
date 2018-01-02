@@ -6,12 +6,15 @@ body {
     line-height: 20px;
     margin: 0;
     overflow-y: scroll;
-    padding: 20px;    
+    padding: 20px;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400);
 
-
+h4 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
 
 h1 {
     	font-family: helvetica;
