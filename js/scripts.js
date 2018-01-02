@@ -18,6 +18,10 @@ document.getElementById("cookies").innerHTML = cookies;
 document.getElementById("java").innerHTML = java;
 document.getElementById("language").innerHTML = language;
 
+function showDetails(position) {
+    var lat = Math.floor(position.coords.latitude);
+    var long = Math.floor(position.coords.longitude);
+
 
 
 var navigate = (function() {
