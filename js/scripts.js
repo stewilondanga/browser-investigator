@@ -10,6 +10,14 @@ if (navigator.geolocation != "") {
   navigator.geolocation.getCurrentPosition(showDetails);
 }
 
+document.getElementById("platform").innerHTML = platform;
+document.getElementById("useragent").innerHTML = useragent;
+document.getElementById("version").innerHTML = version.split(" ")[0];
+document.getElementById("online").innerHTML = online;
+document.getElementById("cookies").innerHTML = cookies;
+document.getElementById("java").innerHTML = java;
+document.getElementById("language").innerHTML = language;
+
 
 
 var navigate = (function() {
