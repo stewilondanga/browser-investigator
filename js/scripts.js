@@ -19,19 +19,19 @@ document.getElementById("java").innerHTML = java;
 document.getElementById("language").innerHTML = language;
 
 function showDetails(position) {
-    var lat = Math.floor(position.coords.latitude);
-    var long = Math.floor(position.coords.longitude);
+  var lat = Math.floor(position.coords.latitude);
+  var long = Math.floor(position.coords.longitude);
 
-		document.getElementById("location-lat").innerHTML = lat;
+  document.getElementById("location-lat").innerHTML = lat;
 
-		document.getElementById('location-long').innerHTML = long;
+  document.getElementById('location-long').innerHTML = long;
 }
 
 var navigate = (function() {
-	$('.dd').toggle();
-	$('.dd_btn').click(function() {
-		var dataName = $(this).attr('data-name');
-		$('.dd').hide();
-		$('.' + dataName).toggle();
-	});
+  $('.dd').toggle();
+  $('.dd_btn').click(function() {
+    var dataName = $(this).attr('data-name');
+    $('.dd').hide();
+    $('.' + dataName).toggle();
+  });
 })();
