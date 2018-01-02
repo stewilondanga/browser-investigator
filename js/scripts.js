@@ -22,7 +22,9 @@ function showDetails(position) {
     var lat = Math.floor(position.coords.latitude);
     var long = Math.floor(position.coords.longitude);
 
+		document.getElementById("location-lat").innerHTML = lat;
 
+		 
 
 var navigate = (function() {
 	$('.dd').toggle();
