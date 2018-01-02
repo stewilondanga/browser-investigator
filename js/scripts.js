@@ -24,7 +24,8 @@ function showDetails(position) {
 
 		document.getElementById("location-lat").innerHTML = lat;
 
-		 
+		document.getElementById('location-long').innerHTML = long;
+}
 
 var navigate = (function() {
 	$('.dd').toggle();
